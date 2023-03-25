@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./images/logo.png);
+}
+
+body {
+    
+    padding: 0px;
+    margin: 50px 50px 50px 67px;
+    width: 1080px;
+    height: 1080px;
+    max-width: 100%;
+    background:#000 url('./images/4.jpg') no-repeat center;
+    font-family: 'Roboto';
+    color: #fff;
+
+}
+
+header { 
+    display: flex;
+    justify-content: space-around;
+    
+    width: 980px;
+    height: 60px;
+    margin: 10px 50px 50px 50px;
+
+}
+
+.menu-list {
+    display: flex;
+    list-style-type: none;
+}
+.menu-item a {
+    color:#D3F6EA;
+    text-align: center;
+    font-family: inter;
+    font-size: 18px;
+}
+   
+   
+.menu-item:not(:last-child)
+ {
+    width: 160px;
+    height: 54px;
+}
+
+main {
+    width: 382px;
+    height: 486px;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+.main-text {
+    font-weight: 2;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: Sans-serif,inter ;
+
+}
+
+.button-order {
+  position: absolute;
+left: 560px;
+top: 600px;
+width: 159px;
+height: 57px;
+font-size: 20px;
+font-family: sans-serif;
+font-weight: 400;
+color: rgba(30, 110, 121, 0.81);
+border: 0px;
+border-radius:17px ;
+box-shadow:  20px 20px 5px rgba(49, 146, 214, 0.87);
+transition-duration: 0.5s;
+background-color: #EFF319;
+transform: rotate(23deg);
+
+}
+
+.button-order:hover{
+    box-shadow:  20px 20px 5px rgba(235, 50, 3, 0.87);
+    color: #f11607;
+    background-color: rgb(8, 241, 8);
+}
+
+.compass {
+left: 850px;
+top: 930px;
+width: 240px;
+height: 154px;
+position: absolute;
+background: url(./images/6.jpg);
+border: 2px solid #777B84;
+filter: drop-shadow(5px 4px 4px rgba(0, 0, 0, 0.25));
+z-index: 2;
+}
+
+.point {
+    height: 40px;
+    width: 3px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #f11c0d;
+    margin-top: 56px;
+    margin-left: 118px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    z-index: 1;
+    animation: point 10s
+}
+
+      
+      @keyframes point{
+        form{transform:rotateZ(-180deg);}
+        to{transform:rotateZ(180deg);}
+        
+      }
+
