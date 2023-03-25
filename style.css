@@ -106,7 +106,7 @@ z-index: 2;
     margin-bottom: 0px;
     margin-right: 0px;
     z-index: 1;
-    animation: point 10s
+    animation: point 10s linear infinite
 }
 
       
